@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Katalog - WatchTime Store</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>WatchTime Store</h2>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="katalog.html">Katalog</a>
+      <a href="keranjang.html">Keranjang</a>
+      <a href="transaksi.html">Transaksi</a>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>Katalog Jam Tangan</h2>
+
+  <input type="text" id="searchInput" placeholder="Cari Jam Tangan..." onkeyup="searchProduct()" class="search-box">
+  <div class="products">
+    <div class="card">
+      <img src="gambar1.jpeg">
+      <h3>Alba Active AG8L87X1</h3>
+      <p>Rp 499.000</p>
+      <button onclick="addToCart('Alba Active AG8L87X1',499000)">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <div class="card">
+      <img src="gambar2.jpeg">
+      <h3>Alexandre Christie Classic Stell AC 8681</h3>
+      <p>Rp 818.400</p>
+      <button onclick="addToCart('Alxander Christie Classic Stell AC 8681',818400)">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <div class="card">
+      <img src="gambar3.jpeg">
+      <h3>Casio Edifice EFR526BK1A2V</h3>
+      <p>Rp 740.000</p>
+      <button onclick="addToCart('Casio Edifice EFR526BK1A2V',740000)">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <div class="card">
+      <img src="gambar4.jpeg">
+      <h3>Digitec DAS2119T</h3>
+      <p>Rp 502.000</p>
+      <button onclick="addToCart('Digitec DAS2119T',502000)">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <div class="card">
+      <img src="gambar4.jpeg">
+      <h3>Digitec DAS2119T</h3>
+      <p>Rp 502.000</p>
+      <button onclick="addToCart('Digitec DAS2119T',502000)">
+        Tambah ke Keranjang
+      </button>
+    </div>
+  </div>
+</div>
+
+<footer>© 2025 WatchTime Store</footer>
+</body>
+</html>
